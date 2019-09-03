@@ -5,41 +5,41 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. In what ways are JavaScript and Ruby similar? In what ways are they different?
 
-  Your answer:
+  Your answer: They are similar because the both use objects. They are different because EVERYTHING in ruby is an object, javascript only has some objects.
 
-  Researched answer:
+  Researched answer: JavaScript is an object-oriented scripting language that allows you to create dynamic HTML pages with interactive effects within a webpage. JavaScript allows you to process and maintain data within the browser. It runs on web-browser only and it is an interpreted programming language. Ruby is an open-source programming language, object-oriented language with a focus on simplicity, portability, extensibility, and productivity. As it is open-source, we can free to modify, edit according to our needs and use.
 
 
 
 2. What is a hash?
 
-  Your answer:
+  Your answer: a hash stores object data
 
-  Researched answer:
+  Researched answer: A Hash is a collection of key-value pairs like this: "employee" = > "salary". It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index.
 
 
 
 3. What is the testing framework used in Ruby? Describe the process of setting up the testing environment.
 
-  Your answer:
+  Your answer: rspec. i need to look up notes in order to start it.
 
-  Researched answer:
+  Researched answer: RSpec is an automated testing framework for Ruby. Testing frameworks are used by a developers to create tests for actions, functions, or methods in their program ensuring that the code runs properly
 
 
 
 4. Name three possible relationships between objects?
 
-  Your answer:
+  Your answer: behavior, data
 
-  Researched answer:
+  Researched answer: All objects have an identity; they can also hold state and manifest behaviour by responding to messages. These messages are normally dispatched through method calls.
 
 
 
 5. What is an instance variable? How is it different from other variables in Ruby?
 
-  Your answer:
+  Your answer: an instance veriable is like state. It shoes data for that specific instance
 
-  Researched answer:
+  Researched answer: An instance variable has a name beginning with @ , and its scope is confined to whatever object self refers to. Two different objects, even if they belong to the same class, are allowed to have different values for their instance variables.
 
 
 
