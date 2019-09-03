@@ -35,18 +35,17 @@ p cap_it
 
 def remove_vowels
     no_vowels = "I have no vowels"
-    p no_vowels.remove('aeiou')
+    p no_vowels.delete('aeiou')
 end
 p remove_vowels
 
 
 # 4. Look at this horrible Ruby code. Fix it to be good Ruby code.
 
-class example
-  constructor(day)
+class Example
+  def initialize
     @day= day
   end
-
   def SayHi
     if day == "Friday"
       p "TGIF!"
@@ -55,12 +54,13 @@ class example
     else
       p "another day"
     end
-# end
+  end
+end
 
 # 5a. Create a class called Animal that initializes with a color. Create a method in the class called legs that returns 4.
 class Animal
     def initialize
-        @color = '',
+        @color = color
     end
     def color
         @color
